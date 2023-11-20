@@ -7,6 +7,7 @@ public class ABR<T extends Comparable<T>>{
 	}
 	
 	private T value = null;
+	private T valueNULL = null;
 	private ABR<T> left;
 	private ABR<T> right;
 	
